@@ -60,7 +60,7 @@ Tested on Windows 11 + WSL2, Ubuntu 24.04, ROS 2 Jazzy, Python 3.12, NVIDIA RTX 
 Requires Ubuntu 24.04 with ROS 2 Jazzy installed in `/opt/ros/jazzy`. The repository root is the ROS 2 workspace, so it can be cloned anywhere.
 
 ```bash
-git clone <this-repo-url> ros2_ws
+git clone https://github.com/AntonioLopez98/semantic-robot-commander.git ros2_ws
 cd ros2_ws
 ./setup.sh
 source install/setup.bash
