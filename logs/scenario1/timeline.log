@@ -1,0 +1,50 @@
+[INFO] [1790538576.286553608] [mock_robot]: Mock robot ready (action: /move_robot, safety: /obstacle_detected)
+[INFO] [1790538577.125740347] [voice_commander]: Warming up LLM...
+[INFO] [1790538577.280335623] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538578.280744053] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538578.946564926] [voice_commander]: Voice commander ready (ai_latency_s=0.0)
+[INFO] [1790538579.279424907] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538579.885266215] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538580.280099735] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538580.520591828] [scenario_driver]: --- ===== SCENARIO 1: Asynchronous hardware interrupt. =====
+[INFO] [1790538580.520917064] [scenario_driver]: >>> USER says: my_move_forward.wav
+[INFO] [1790538580.524029331] [voice_commander]: [voice #1] received /home/lope626/ros2_ws/src/voice_commander/audio/my_move_forward.wav -> AI worker (executor NOT blocked)
+[INFO] [1790538580.825473855] [voice_commander]: [voice #1] transcript='Move forward 10 meters.'
+[INFO] [1790538580.897717178] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538581.280341425] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538581.899675979] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538582.280322432] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538582.885719931] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538582.887357686] [voice_commander]: [voice #1] LLM + normaliser in 2.35s -> RobotCommand(kind=move, distance_m=10.000, yaw_rad=0.0000)
+[INFO] [1790538582.887732372] [voice_commander]: [arbitration] preempted by voice #1: no active goal
+[INFO] [1790538582.890841189] [mock_robot]: [goal e7abcb8c] START move distance_m=10.00 yaw_rad=0.000
+[INFO] [1790538582.891099080] [voice_commander]: [goal e7abcb8c] ACTIVE (voice #1)
+[INFO] [1790538582.996457805] [scenario_driver]: --- goal e7abcb8c is executing
+[INFO] [1790538582.996846761] [scenario_driver]: --- waiting 2.0 s into execution...
+[INFO] [1790538583.043408467] [voice_commander]: [feedback e7abcb8c] x=0.10 y=0.00 yaw=0.000 progress=1%
+[INFO] [1790538583.280233760] [mock_robot]: [telemetry] x=0.20 y=0.00 yaw=0.00 active_goal=e7abcb8c obstacle=False
+[INFO] [1790538583.888396867] [voice_commander]: [telemetry@commander] x=0.50 y=0.00 yaw=0.00 active_goal=e7abcb8c obstacle=False
+[INFO] [1790538584.050719852] [voice_commander]: [feedback e7abcb8c] x=0.60 y=0.00 yaw=0.000 progress=6%
+[INFO] [1790538584.281029286] [mock_robot]: [telemetry] x=0.70 y=0.00 yaw=0.00 active_goal=e7abcb8c obstacle=False
+[INFO] [1790538584.889311010] [voice_commander]: [telemetry@commander] x=1.00 y=0.00 yaw=0.00 active_goal=e7abcb8c obstacle=False
+[WARN] [1790538584.997317753] [scenario_driver]: >>> HARDWARE: obstacle_detected=True
+[INFO] [1790538584.997607730] [scenario_driver]: --- robot must stay stopped with NO new user command / AI involvement
+[WARN] [1790538585.011812553] [mock_robot]: [SAFETY] obstacle_detected=True -> motion HALTED at x=1.08 y=0.00 yaw=0.00 (active goal e7abcb8c) t=4664.569
+[INFO] [1790538585.062199988] [mock_robot]: [goal e7abcb8c] END status=safety_stop done=1.08
+[INFO] [1790538585.064428111] [voice_commander]: [goal e7abcb8c] FINISHED ABORTED robot_status=safety_stop distance=1.08m yaw=0.000rad
+[INFO] [1790538585.280930627] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538585.919654954] [voice_commander]: [telemetry@commander] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538586.281312735] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538586.900394315] [voice_commander]: [telemetry@commander] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538587.281708098] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538587.887980753] [voice_commander]: [telemetry@commander] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[WARN] [1790538587.998005333] [scenario_driver]: >>> HARDWARE: obstacle_detected=False
+[INFO] [1790538588.013682688] [mock_robot]: [SAFETY] obstacle cleared, new goals allowed
+[INFO] [1790538588.279709504] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538588.894108018] [voice_commander]: [telemetry@commander] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538589.282472597] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538589.498454973] [scenario_driver]: --- ===== SCENARIO 1 DONE =====
+[INFO] [1790538589.900493995] [voice_commander]: [telemetry@commander] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538590.281364372] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538590.882839591] [voice_commander]: [telemetry@commander] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538591.280655592] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False

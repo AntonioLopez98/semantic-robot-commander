@@ -1,0 +1,8 @@
+[INFO] [1790538580.520591828] [scenario_driver]: --- ===== SCENARIO 1: Asynchronous hardware interrupt. =====
+[INFO] [1790538580.520917064] [scenario_driver]: >>> USER says: my_move_forward.wav
+[INFO] [1790538582.996457805] [scenario_driver]: --- goal e7abcb8c is executing
+[INFO] [1790538582.996846761] [scenario_driver]: --- waiting 2.0 s into execution...
+[WARN] [1790538584.997317753] [scenario_driver]: >>> HARDWARE: obstacle_detected=True
+[INFO] [1790538584.997607730] [scenario_driver]: --- robot must stay stopped with NO new user command / AI involvement
+[WARN] [1790538587.998005333] [scenario_driver]: >>> HARDWARE: obstacle_detected=False
+[INFO] [1790538589.498454973] [scenario_driver]: --- ===== SCENARIO 1 DONE =====

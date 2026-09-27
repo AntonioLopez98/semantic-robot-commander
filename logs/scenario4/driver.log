@@ -1,0 +1,5 @@
+[INFO] [1790538705.597622909] [scenario_driver]: --- ===== SCENARIO 4: Voice preemption: 'Stop.' during a long move. =====
+[INFO] [1790538705.597975891] [scenario_driver]: >>> USER says: my_move_forward.wav
+[INFO] [1790538708.148009201] [scenario_driver]: --- goal a020c84b is executing
+[INFO] [1790538711.148721468] [scenario_driver]: >>> USER says: my_stop.wav
+[INFO] [1790538715.649659382] [scenario_driver]: --- ===== SCENARIO 4 DONE =====

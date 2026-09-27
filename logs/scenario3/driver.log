@@ -1,0 +1,12 @@
+[INFO] [1790538654.739148082] [scenario_driver]: --- ===== SCENARIO 3: High-latency AI processing (commander runs with ai_latency_s=3.0). =====
+[INFO] [1790538654.739481385] [scenario_driver]: >>> USER says: my_move_forward.wav
+[INFO] [1790538660.601908575] [scenario_driver]: --- goal fdc5410e is executing
+[INFO] [1790538661.602833620] [scenario_driver]: >>> USER says: my_turn_right.wav
+[INFO] [1790538661.603414112] [scenario_driver]: --- AI now busy ~6 s (ASR + LLM + 3 s injected); feedback/telemetry must continue
+[WARN] [1790538663.104246573] [scenario_driver]: >>> OPERATOR: /cancel_goal (no AI involved)
+[INFO] [1790538663.104915127] [scenario_driver]: --- cancel issued WHILE AI is busy -> move must stop now
+[WARN] [1790538664.105538447] [scenario_driver]: >>> HARDWARE: obstacle_detected=True
+[INFO] [1790538664.105943549] [scenario_driver]: --- safety event WHILE AI is busy -> must be handled now
+[INFO] [1790538664.106148527] [scenario_driver]: --- when the turn result arrives, the robot must refuse it (obstacle interlock)
+[WARN] [1790538670.106538305] [scenario_driver]: >>> HARDWARE: obstacle_detected=False
+[INFO] [1790538671.607062154] [scenario_driver]: --- ===== SCENARIO 3 DONE =====

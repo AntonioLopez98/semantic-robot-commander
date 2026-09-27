@@ -1,0 +1,29 @@
+[INFO] [1790538650.791908503] [mock_robot]: Mock robot ready (action: /move_robot, safety: /obstacle_detected)
+[INFO] [1790538651.785026648] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538652.784820237] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538653.785570845] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538654.788515138] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538655.786450812] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538656.785195351] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538657.784264244] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538658.785038053] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538659.785268415] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538660.499419149] [mock_robot]: [goal fdc5410e] START move distance_m=10.00 yaw_rad=0.000
+[INFO] [1790538660.785966227] [mock_robot]: [telemetry] x=0.15 y=0.00 yaw=0.00 active_goal=fdc5410e obstacle=False
+[INFO] [1790538661.784912343] [mock_robot]: [telemetry] x=0.65 y=0.00 yaw=0.00 active_goal=fdc5410e obstacle=False
+[INFO] [1790538662.785607275] [mock_robot]: [telemetry] x=1.15 y=0.00 yaw=0.00 active_goal=fdc5410e obstacle=False
+[INFO] [1790538663.185795468] [mock_robot]: [cancel] cancel requested for goal fdc5410e
+[INFO] [1790538663.221188804] [mock_robot]: [goal fdc5410e] END status=canceled done=1.35
+[INFO] [1790538663.785649813] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[WARN] [1790538664.108643783] [mock_robot]: [SAFETY] obstacle_detected=True -> motion HALTED at x=1.35 y=0.00 yaw=0.00 (active goal none) t=4743.665
+[INFO] [1790538664.786828123] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538665.784868292] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538666.786563355] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[WARN] [1790538667.059901924] [mock_robot]: [goal] REJECTED: obstacle present
+[INFO] [1790538667.786332842] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538668.786372530] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538669.786243597] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538670.108548121] [mock_robot]: [SAFETY] obstacle cleared, new goals allowed
+[INFO] [1790538670.786788530] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538671.786323749] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538672.785856000] [mock_robot]: [telemetry] x=1.35 y=0.00 yaw=0.00 active_goal=none obstacle=False

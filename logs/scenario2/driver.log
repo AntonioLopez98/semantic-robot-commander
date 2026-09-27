@@ -1,0 +1,5 @@
+[INFO] [1790539613.635460657] [scenario_driver]: --- ===== SCENARIO 2: Coordinate and unit normalisation. =====
+[INFO] [1790539613.636016328] [scenario_driver]: >>> USER says: my_turn_left.wav
+[INFO] [1790539616.703464722] [scenario_driver]: --- goal 39bc7fb9 is executing
+[INFO] [1790539619.918516638] [scenario_driver]: --- robot idle
+[INFO] [1790539621.419373489] [scenario_driver]: --- ===== SCENARIO 2 DONE =====

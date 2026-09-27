@@ -1,0 +1,6 @@
+# Python dependencies. Install with:
+#   pip install --user --break-system-packages -r requirements.txt
+# rclpy and the ROS message packages come from ROS 2 Jazzy, not pip.
+faster-whisper==1.2.1
+pydantic==2.13.5
+requests>=2.31

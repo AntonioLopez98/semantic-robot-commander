@@ -1,0 +1,16 @@
+# ---------- Goal ----------
+# Already normalised by the deterministic layer (SI units, REP-103)
+string command_type      # "move" or "turn"
+float64 distance_m       # signed metres, + = forward
+float64 yaw_rad          # signed radians, + = counter-clockwise (left)
+---
+# ---------- Result ----------
+string status            # "succeeded" | "canceled" | "safety_stop" | "aborted"
+float64 distance_traveled_m
+float64 yaw_turned_rad
+---
+# ---------- Feedback ----------
+float64 x
+float64 y
+float64 yaw
+float64 progress         # 0.0 to 1.0

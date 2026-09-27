@@ -1,0 +1,10 @@
+[INFO] [1790538746.602483425] [scenario_driver]: --- ===== SCENARIO 5: Cancellation race (robot runs with late_result_delay_s=1.5). =====
+[INFO] [1790538746.602830199] [scenario_driver]: >>> USER says: my_move_forward.wav
+[INFO] [1790538749.094381060] [scenario_driver]: --- goal 1edce4d2 is executing
+[INFO] [1790538749.094747861] [scenario_driver]: --- Goal A = 1edce4d2
+[INFO] [1790538752.095159657] [scenario_driver]: >>> USER says: my_turn_left.wav
+[INFO] [1790538752.095515323] [scenario_driver]: --- Goal B will supersede A; A's feedback/result are delivered 1.5 s LATE
+[INFO] [1790538754.583241033] [scenario_driver]: --- goal 10fa13ba is executing
+[INFO] [1790538754.583605634] [scenario_driver]: --- Goal B = 10fa13ba; late callbacks from A must NOT change B's state
+[INFO] [1790538757.797060354] [scenario_driver]: --- robot idle
+[INFO] [1790538759.297571852] [scenario_driver]: --- ===== SCENARIO 5 DONE =====

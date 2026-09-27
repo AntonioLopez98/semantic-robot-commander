@@ -1,0 +1,22 @@
+[INFO] [1790539601.873338118] [voice_commander]: Warming up LLM...
+[INFO] [1790539612.416200491] [voice_commander]: Voice commander ready (ai_latency_s=0.0)
+[INFO] [1790539613.420230440] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790539613.638980973] [voice_commander]: [voice #1] received /home/lope626/ros2_ws/src/voice_commander/audio/my_turn_left.wav -> AI worker (executor NOT blocked)
+[INFO] [1790539614.100023615] [voice_commander]: [voice #1] transcript='Turn 90 degrees to the left'
+[INFO] [1790539614.424776084] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790539615.446533769] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790539616.405646267] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790539616.697375290] [voice_commander]: [voice #1] LLM + normaliser in 3.06s -> RobotCommand(kind=turn, distance_m=0.000, yaw_rad=1.5708)
+[INFO] [1790539616.697885018] [voice_commander]: [arbitration] preempted by voice #1: no active goal
+[INFO] [1790539616.701753773] [voice_commander]: [goal 39bc7fb9] ACTIVE (voice #1)
+[INFO] [1790539616.853808622] [voice_commander]: [feedback 39bc7fb9] x=0.00 y=0.00 yaw=0.100 progress=6%
+[INFO] [1790539617.433960952] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.35 active_goal=39bc7fb9 obstacle=False
+[INFO] [1790539617.863454709] [voice_commander]: [feedback 39bc7fb9] x=0.00 y=0.00 yaw=0.600 progress=38%
+[INFO] [1790539618.410000211] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=0.85 active_goal=39bc7fb9 obstacle=False
+[INFO] [1790539618.869913129] [voice_commander]: [feedback 39bc7fb9] x=0.00 y=0.00 yaw=1.100 progress=70%
+[INFO] [1790539619.413560664] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=1.35 active_goal=39bc7fb9 obstacle=False
+[INFO] [1790539619.880101027] [voice_commander]: [goal 39bc7fb9] FINISHED SUCCEEDED robot_status=succeeded distance=0.00m yaw=1.571rad
+[INFO] [1790539620.414123557] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=1.57 active_goal=none obstacle=False
+[INFO] [1790539621.412091234] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=1.57 active_goal=none obstacle=False
+[INFO] [1790539622.410199690] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=1.57 active_goal=none obstacle=False
+[INFO] [1790539623.422986536] [voice_commander]: [telemetry@commander] x=0.00 y=0.00 yaw=1.57 active_goal=none obstacle=False

@@ -1,0 +1,20 @@
+[INFO] [1790538576.286553608] [mock_robot]: Mock robot ready (action: /move_robot, safety: /obstacle_detected)
+[INFO] [1790538577.280335623] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538578.280744053] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538579.279424907] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538580.280099735] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538581.280341425] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538582.280322432] [mock_robot]: [telemetry] x=0.00 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538582.890841189] [mock_robot]: [goal e7abcb8c] START move distance_m=10.00 yaw_rad=0.000
+[INFO] [1790538583.280233760] [mock_robot]: [telemetry] x=0.20 y=0.00 yaw=0.00 active_goal=e7abcb8c obstacle=False
+[INFO] [1790538584.281029286] [mock_robot]: [telemetry] x=0.70 y=0.00 yaw=0.00 active_goal=e7abcb8c obstacle=False
+[WARN] [1790538585.011812553] [mock_robot]: [SAFETY] obstacle_detected=True -> motion HALTED at x=1.08 y=0.00 yaw=0.00 (active goal e7abcb8c) t=4664.569
+[INFO] [1790538585.062199988] [mock_robot]: [goal e7abcb8c] END status=safety_stop done=1.08
+[INFO] [1790538585.280930627] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538586.281312735] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538587.281708098] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=True
+[INFO] [1790538588.013682688] [mock_robot]: [SAFETY] obstacle cleared, new goals allowed
+[INFO] [1790538588.279709504] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538589.282472597] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538590.281364372] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False
+[INFO] [1790538591.280655592] [mock_robot]: [telemetry] x=1.08 y=0.00 yaw=0.00 active_goal=none obstacle=False

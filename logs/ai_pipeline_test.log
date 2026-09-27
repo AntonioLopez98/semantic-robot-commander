@@ -1,0 +1,31 @@
+Warming up LLM...
+
+[my_move_forward.wav]
+  transcript : 'Move forward 10 meters.'
+  llm_raw    : {"action": "move", "distance": 10, "distance_unit": "meters", "direction": "forward", "angle": null, "angle_unit": null}
+  normalised : OK -> RobotCommand(kind=move, distance_m=10.000, yaw_rad=0.0000)
+  timing     : asr=0.37s llm=2.15s
+
+[my_nonvalid.wav]
+  transcript : 'go to the moon'
+  llm_raw    : {"action": "unsupported", "distance": null, "distance_unit": null, "direction": null, "angle": null, "angle_unit": null}
+  normalised : REJECT -> command not supported by this robot
+  timing     : asr=0.41s llm=1.80s
+
+[my_stop.wav]
+  transcript : 'Stop.'
+  llm_raw    : {"action": "stop", "distance": null, "distance_unit": null, "direction": null, "angle": null, "angle_unit": null}
+  normalised : OK -> RobotCommand(kind=stop, distance_m=0.000, yaw_rad=0.0000)
+  timing     : asr=0.49s llm=2.42s
+
+[my_turn_left.wav]
+  transcript : 'Turn 90 degrees to the left'
+  llm_raw    : {"action": "turn", "distance": null, "distance_unit": null, "direction": "left", "angle": 90, "angle_unit": "degrees"}
+  normalised : OK -> RobotCommand(kind=turn, distance_m=0.000, yaw_rad=1.5708)
+  timing     : asr=0.41s llm=2.30s
+
+[my_turn_right.wav]
+  transcript : 'Turn 90 degrees to the right.'
+  llm_raw    : {"action": "turn", "distance": null, "distance_unit": null, "direction": "right", "angle": 90, "angle_unit": "degrees"}
+  normalised : OK -> RobotCommand(kind=turn, distance_m=0.000, yaw_rad=-1.5708)
+  timing     : asr=0.33s llm=2.05s
